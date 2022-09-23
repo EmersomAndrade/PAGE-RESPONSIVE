@@ -87,6 +87,7 @@ header{
         padding: 10px 20px;
         cursor: pointer;
         border: 0;
+        display: none;
         
         i{
             color: gray;
@@ -392,12 +393,12 @@ header{
   }
      
 
-  @media (max-width: 790px){
+  @media (max-width: 750px){
     .nav-menu{
      display: none;
     }
-    #menu-mobile-btn{
-         display: block;
+    header #menu-mobile-btn{
+         display: initial;
     }
 
     main{
@@ -435,14 +436,14 @@ header{
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+       
             gap: 10px;
 
             input{
-                width: 100%;
+                width: 90%;
             }
             button{
-                width: 30%;
+                width: 90%;
             }
         }
     }

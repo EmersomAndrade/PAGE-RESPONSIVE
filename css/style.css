@@ -79,6 +79,7 @@ header #menu-mobile-btn {
   padding: 10px 20px;
   cursor: pointer;
   border: 0;
+  display: none;
 }
 header #menu-mobile-btn i {
   color: gray;
@@ -341,12 +342,12 @@ footer .midias img {
   margin-right: 0.3rem;
 }
 
-@media (max-width: 790px) {
+@media (max-width: 750px) {
   .nav-menu {
     display: none;
   }
-  #menu-mobile-btn {
-    display: block;
+  header #menu-mobile-btn {
+    display: initial;
   }
   main {
     margin-bottom: 30px;
@@ -379,13 +380,12 @@ footer .midias img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 10px;
   }
   .div-input form input {
-    width: 100%;
+    width: 90%;
   }
   .div-input form button {
-    width: 30%;
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
